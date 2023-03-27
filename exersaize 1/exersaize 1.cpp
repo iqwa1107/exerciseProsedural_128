@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 double rerata(double a, double b) {
 	return (a + b) / 2;
 }
@@ -20,6 +21,17 @@ string status2(double rata, double nil) {
 }
 
 int main() {
-	double nilM, nilB
-		count 
+	double nilM, nilB;
+	cout << endl;
+	cout << "==========================";
+	cout << "masukan nilai matematika = "; 
+	cout << "===========================";
+	cin >> nilM;
+	cout << "============================"
+	cout << "masukan nilai bahasa inggs = ";
+	cout << "==========================="
+	cin >> nilB;
+	cout << "status kelulusan = " << status(rerata(nilM, nilB));
+	cout << "\nStatus kelulusan 2 = " << status2(rerata(nilM, nilB),nilM);
+		return 0;
 }
